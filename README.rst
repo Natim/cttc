@@ -1,13 +1,13 @@
-C'était trop choux
-==================
+C'était trop chou
+=================
 
-Un petit recueil de truc trop choux.
+Un petit recueil de moments trop chou.
 
-Pour publier une nouvelle anecdote ? Ajouter un fichier, on la review,
-on la merge et elle apparait en ligne sur :
+Pour publier une nouvelle anecdote ?
+
+Ajouter un fichier, on valide et on publie sur :
 
 http://cttc.trunat.fr/
-
 
 
 Pour publier à partir du code source

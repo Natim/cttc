@@ -10,7 +10,7 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-SITEURL = 'http://www.servicedenuages.fr'
+SITEURL = 'http://cttc.trunat.fr.fr'
 RELATIVE_URLS = False
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
@@ -19,11 +19,11 @@ CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
 DELETE_OUTPUT_DIRECTORY = True
 
 SOCIAL = (
-    ('envelope', 'http://librelist.com/browser/daybed.dev/'),
-    ('rss', SITEURL + '/feeds/all.atom.xml'),
-    ('github', 'https://github.com/mozilla-services'),
+    ('envelope', 'mailto:cttc@trunat.fr'),
+    ('rss', SITEURL + 'feeds/all.atom.xml'),
+    ('github', 'https://github.com/Natim/cttc'),
 )
 
 # Following items are often useful when publishing
 
-DISQUS_SITENAME = "servicedenuages"
+DISQUS_SITENAME = "cttc"

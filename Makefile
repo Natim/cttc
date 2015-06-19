@@ -50,7 +50,7 @@ regenerate:
 
 publish: install
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
-	echo "www.servicedenuages.fr" > $(OUTPUTDIR)/CNAME
+	echo "cttc.trunat.fr" > $(OUTPUTDIR)/CNAME
 
 github: publish
 	$(VENV)/bin/ghp-import -b $(GITHUB_PAGES_BRANCH) $(OUTPUTDIR)
