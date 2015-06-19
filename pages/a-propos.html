@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="C'était trop chou !, ">
+
+        <link rel="alternate"  href="http://cttc.trunat.fr.fr/feeds/all.atom.xml" type="application/atom+xml" title="C'était trop chou ! Full Atom Feed"/>
+
+        <title>À propos // C'était trop chou ! // </title>
+
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.3.0/pure-min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://cttc.trunat.fr.fr/theme/css/pure.css">
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+</head>
+
+<body>
+<div class="pure-g-r" id="layout">
+<div class="sidebar pure-u">
+    <div class="cover-img" style="background-image: url('http://cttc.trunat.fr.fr/theme/sidebar.jpg')">
+        <div class="cover-body">
+            <header class="header">
+                <hgroup>
+                    <h1 class="brand-main"><a href="/">C'était trop chou !</a></h1>
+                <ul id="links">
+                    <li><a href="http://cttc.trunat.fr.fr/archives.html">Archives</a></li>
+                    <li><a href="http://cttc.trunat.fr.fr/pages/a-propos.html">À propos</a></li>
+                </ul>
+                    <p class="social">
+                        <a href="mailto:cttc@trunat.fr">
+                            <i class="fa fa-envelope fa-3x"></i>
+                        </a>
+                        <a href="http://cttc.trunat.fr.frfeeds/all.atom.xml">
+                            <i class="fa fa-rss fa-3x"></i>
+                        </a>
+                        <a href="https://github.com/Natim/cttc">
+                            <i class="fa fa-github fa-3x"></i>
+                        </a>
+                    <p>
+                </hgroup>
+            </header>
+        </div>
+    </div>
+</div>    <div class="pure-u-1">
+        <div class="content">
+            <h1 class="content-subhead">À propos</h1>
+            <p><p>Aujourd'hui, Élise a un problème avec sa voiture, Rémy arrive pour
+l'aider et après avoir déposé la voiture au garage, ils se baignent
+dans la mer, vont visiter un bateau, finissent dans un super resto et
+ouvrent un site internet, c'était trop chou !</p>
+</p>
+        </div>
+    </div>
+</div>
+<footer class="footer">
+    <p>&copy; C'était trop chou ! &ndash;
+        Développé avec <a href="https://github.com/PurePelicanTheme/pure">Pure Theme</a>
+        et <a href="http://blog.getpelican.com/">Pelican</a>
+    </p>
+</footer>    <script>
+        var $top = $('.go-top');
+
+        // Show or hide the sticky footer button
+        $(window).scroll(function() {
+            if ($(this).scrollTop() > 200) {
+                $top.fadeIn(200);
+            } else {
+                $top.fadeOut(200);
+            }
+        });
+
+        // Animate the scroll to top
+        $top.click(function(event) {
+            event.preventDefault();
+            $('html, body').animate({scrollTop: 0}, 300);
+        })
+
+        // Makes sure that the href="#" attached to the <a> elements
+        // don't scroll you back up the page.
+        $('body').on('click', 'a[href="#"]', function(event) {
+            event.preventDefault();
+        });
+    </script>
+</body>
+</html>
