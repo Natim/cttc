@@ -27,3 +27,4 @@ SOCIAL = (
 # Following items are often useful when publishing
 
 DISQUS_SITENAME = "cttc"
+GOOGLE_ANALYTICS = "UA-64322121-1"
